@@ -25,7 +25,7 @@ SECRET_KEY = '1rh2)enk9#aarp@4t#%^79z&ocdtaq+hm06t%!^#rch$m_3slc'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['206.189.9.204']
+ALLOWED_HOSTS = ['.roometi.eu', '206.189.9.204', 'localhost']
 
 
 # Application definition
