@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '1rh2)enk9#aarp@4t#%^79z&ocdtaq+hm06t%!^#rch$m_3slc'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['.roometi.eu', '206.189.9.204', 'localhost']
 
@@ -75,7 +75,7 @@ WSGI_APPLICATION = 'roometi_r2.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
-if DEBUG:
+if DEBUG==False:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.sqlite3',
