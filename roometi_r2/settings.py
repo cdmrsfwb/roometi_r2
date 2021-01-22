@@ -88,7 +88,7 @@ else:
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
             'NAME': 'storedb',
             'USER': 'store_admin',
-            'PASSWORD': 'password',
+            'PASSWORD': 'eStorerotSe!',
             'HOST': 'localhost',
             'PORT': '',
         }
